@@ -27,17 +27,32 @@
       "SupportedInMultiActions": false,
       "Tooltip": "Countdown until next meeting starts", 
       "UUID": "com.pedrofuentes.ical.nextmeeting"
-    }
+    },
+    {
+    "Icon": "images/joinMeeting",
+    "Name": "Join Event",
+    "States": [
+        {
+            "Image": "images/action"
+        }
+    ],
+    "SupportedInMultiActions": false,
+    "Tooltip": "Displays the next event from an iCalendar feed",
+    "UUID": "com.fuentescreations.ical.action",
+    "PropertyInspectorPath": "app.html",
+    "onKeyDown": "keyDown",
+    "onKeyUp": "keyUp"
+}
   ], 
   "SDKVersion": 2,
-  "Author": "Pedro Fuentes", 
+  "Author": "Drew Sparks", 
   "CodePath": "app.html", 
-  "Description": "Display information from your calendar using an iCal URL. Visual cues and a countdown will help you end meetings on time and be ready for the next one.", 
-  "Name": "iCal", 
+  "Description": "Based heavily on Pedro Fuentes' iCal plugin. From him: Display information from your calendar using an iCal URL. Visual cues and a countdown will help you end meetings on time and be ready for the next one.", 
+  "Name": "iCal Calendar Button", 
   "Icon": "assets/icalIcon", 
   "Category": "iCal",
   "CategoryIcon": "assets/icalIcon",
-  "URL": "https://github.com/pedrofuentes/stream-deck-ical#readme",
+  "URL": "https://github.com/drewksparks/stream-deck-ical#readme",
   "PropertyInspectorPath": "pi.html",
   "Version": "1.1.0",
   "OS": [
